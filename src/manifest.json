@@ -1,0 +1,29 @@
+{
+    "name": "随机颜色",
+    "description": "批量设置随机颜色.",
+    "authorEmail": "1418503647@qq.com",
+    "author": "Yunser",
+    "homepage": "https://color.yunser.com/",
+    "identifier": "yunser.color",
+    "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+    "icon": "icon.png",
+    "commands": [
+        {
+            "name": "快速随机颜色",
+            "identifier": "yunser.color.quick",
+            "script": "./quick.ts"
+        },
+        {
+            "name": "设置随机颜色",
+            "identifier": "yunser.color.setting",
+            "script": "./setting.ts"
+        }
+    ],
+    "menu": {
+        "title": "随机颜色",
+        "items": [
+            "yunser.color.quick",
+            "yunser.color.setting"
+        ]
+    }
+}

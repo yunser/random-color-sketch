@@ -1,0 +1,34 @@
+{
+  "name": "random-color-sketch",
+  "description": "",
+  "version": "0.0.4",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "random-color-sketch",
+    "manifest": "src/manifest.json",
+    "main": "random-color-sketch.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ],
+    "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.0"
+  },
+  "author": "“cjhgit” <“1418503647@qq.com”>",
+  "dependencies": {
+    "color": "^4.2.3",
+    "sketch-module-web-view": "^3.5.1"
+  },
+  "files": [
+    "/dist"
+  ]
+}
