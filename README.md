@@ -1,6 +1,9 @@
 # sketch-yunser
 
-* 说明：Sketch 随机颜色插件
+Sketch Random Color Plugin.
+
+Sketch 随机颜色插件。
+
 * 功能
   * 选中图层后快速设置颜色。
 * TODO
@@ -25,17 +28,3 @@ skpm log -f
 ```
 
 npm run build，然后对 `sketch-yunser.sketchplugin` 目录进行打包。
-
-
-
-
-========
-
-
-
-,
-        {
-            "name": "设置随机颜色",
-            "identifier": "yunser.color.setting",
-            "script": "./setting.ts"
-        }
