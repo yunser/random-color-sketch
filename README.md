@@ -25,3 +25,17 @@ skpm log -f
 ```
 
 npm run build，然后对 `sketch-yunser.sketchplugin` 目录进行打包。
+
+
+
+
+========
+
+
+
+,
+        {
+            "name": "设置随机颜色",
+            "identifier": "yunser.color.setting",
+            "script": "./setting.ts"
+        }
