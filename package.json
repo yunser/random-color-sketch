@@ -1,10 +1,14 @@
 {
   "name": "random-color-sketch",
   "description": "",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "engines": {
     "sketch": ">=49.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunser/random-color-sketch"
+},
   "skpm": {
     "name": "random-color-sketch",
     "manifest": "src/manifest.json",
