@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/yunser/random-color-sketch"
-},
+  },
   "skpm": {
     "name": "random-color-sketch",
     "manifest": "src/manifest.json",
